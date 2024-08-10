@@ -47,9 +47,13 @@ Arquitetura de projetos em software refere-se à estruturação e organização 
 A arquitetura de software estabelece a base sobre a qual o software será construído, funcionando como um guia para os desenvolvedores. Ela não apenas define a estrutura do sistema, mas também orienta sobre como os diferentes componentes devem interagir, o que é essencial para o desenvolvimento de sistemas complexos.
 
 **Principais Aspectos da Arquitetura de Projetos**
+
 **Componentes e Interações**: A arquitetura detalha quais são os componentes do sistema (como módulos, classes, serviços) e como eles se comunicam entre si. Isso ajuda a visualizar a estrutura do software e facilita a identificação de dependências e interações.
+
 **Estilos Arquiteturais**: Existem diversos estilos arquiteturais, como arquitetura em camadas, microserviços, e cliente-servidor. A escolha do estilo adequado é fundamental para atender às necessidades específicas do projeto e garantir a escalabilidade e a eficiência do sistema.
+
 **Documentação**: A documentação da arquitetura é essencial para a comunicação entre as partes interessadas e para a manutenção do sistema ao longo do tempo. Ela registra decisões de design e permite o reuso de componentes em projetos futuros.
+
 **Qualidade do Sistema**: A arquitetura impacta diretamente atributos de qualidade do software, como confiabilidade, desempenho e portabilidade. Um bom design arquitetural pode minimizar riscos e facilitar a evolução do sistema
 
 **Arquitetura Alvo**
