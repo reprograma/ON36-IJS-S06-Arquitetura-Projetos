@@ -1,6 +1,8 @@
-Domain
+## Domain
 O Domain refere-se ao núcleo da aplicação, onde reside a lógica de negócios. É o contexto em que a aplicação opera, incluindo as regras, entidades e comportamentos que definem como o sistema deve funcionar. Em uma arquitetura hexagonal, o domínio é a parte mais estável do software, frequentemente representado por um Domain Model, que encapsula as regras e a lógica necessárias para resolver problemas específicos do negócio. O foco é garantir que as decisões de negócios sejam claramente refletidas no código, facilitando a manutenção e a evolução do sistema.
-Model
+
+## Model
 O Model é a representação abstrata do domínio. No contexto da arquitetura hexagonal, o modelo é implementado usando as práticas de Domain-Driven Design (DDD), onde as entidades e suas interações são definidas. O modelo não apenas representa os dados, mas também as operações que podem ser realizadas sobre esses dados. Ele é crucial para a implementação da lógica de negócios, permitindo que os desenvolvedores construam soluções que atendam às necessidades do domínio de forma eficaz.
-Service
+
+## Service
 Os Services são componentes que atuam como intermediários entre o domínio e as interfaces externas (como APIs ou interfaces de usuário). Eles encapsulam a lógica de aplicação e orquestram as interações entre diferentes partes do sistema, permitindo que o domínio seja acessado de maneira controlada. Em uma arquitetura hexagonal, os serviços são implementados como adaptadores que se comunicam com o modelo de domínio, permitindo que a lógica de negócios seja utilizada por diferentes interfaces sem acoplamento direto. Isso promove a flexibilidade e a reutilização, pois os serviços podem ser facilmente modificados ou substituídos sem impactar o núcleo do domínio
