@@ -39,7 +39,7 @@ Você vai ver que muitos dos exemplos estão vinculadas as contas de Pessoas Jur
 
 **ReceitaWS API**
    - **Descrição**: API que permite consultar informações sobre empresas através do CNPJ. Útil para verificar a legitimidade de empresas que desejam abrir contas ou fazer transações no banco comunitário.
-   - **URL**: `https://www.receitaws.com.br/v1/cnpj/{CNPJ}`
+   - **URL**: `https://developers.receitaws.com.br/#/`
    - **Uso**: Pode ser usada para validar empresas e seus dados fiscais, garantindo que elas estão em conformidade com a lei.
 
 **IPGeolocation API**
