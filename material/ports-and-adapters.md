@@ -11,6 +11,7 @@ Para ajudar a compreender e definir esta diferença, usamos os termos driving ac
 e driven actors (eles são conduzidos pelo aplicativo).
 
 **Portas**
+
 As portas definem o verdadeiro limite do aplicativo.
 Cada interação entre o aplicativo e o mundo exterior acontece em uma porta,
 usando a linguagem de interface que o próprio aplicativo define. 
@@ -19,18 +20,21 @@ Organizamos as interações entre a aplicação e os atores externos, o motivo p
 Neste modelo, cada conjuntode interações com um determinado propósito ou intenção é um porto.
 
 **driving actors - Atores Externos Condutores**
+
 Os condutores são aqueles que iniciam a interação com o sistema. 
 Eles podem ser usuários que utilizam uma interface de usuário, sistemas externos que enviam solicitações,
 ou qualquer entidade que provoque uma ação no aplicativo. Esses atores são responsáveis por acionar funcionalidades do sistema,
 como, por exemplo, um usuário que faz login ou um sistema de pagamento que processa uma transação.
 
 **driven actors -Atores Externos Conduzidos**
+
 Os conduzidos, por outro lado, são os atores que recebem respostas ou resultados das interações com o sistema.
 Eles são impactados pelas ações realizadas no aplicativo e podem incluir usuários que recebem feedback ou dados processados,
 ou sistemas que consomem informações geradas pelo aplicativo.
 Por exemplo, um usuário que recebe uma confirmação de um pedido ou um sistema externo que recebe dados de um serviço de API.
 
 **Configurador**
+
 Algo tem que conectar todas as peças. Algum pedaço de código em algum lugar precisa
 diga aos atores condutores como chegar ao aplicativo e diga ao aplicativo quais atores conduzidos usar.
 Este é o papel do configurador.
@@ -51,9 +55,7 @@ Para aplicar um padrão, você precisa saber o que está dentro do escopo do pad
 em si, o que não faz parte do padrão, mas pode ser uma dica útil, e o que não faz
 parte do padrão.
 
-### O que é exigido pelo padrão
-
-O padrão requer estas coisas:
+### O que é exigido pelo padrão  
 
 1.O aplicativo define uma interface fornecida ou necessária para todas as inter-
 ações.
